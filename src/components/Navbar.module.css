@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    box-shadow: rgba(0,0,0, .15) 0 -2px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 2em;
+}
+
+.brand {
+    font-size: 1.2em;
+}
+
+.brand span{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.brand span:hover {
+    color: #7321d1bd;
+    transition: 0.5s;
+    
+}
+
+.links_list{
+    display: flex;
+    list-style: none;
+}
+
+.links_list li{
+    margin-right: 1em;
+}
+
+.links_list li a{
+    padding: .4em .6em;
+}
+
+.active {
+    background-color: #242222;
+    color: white;
+    border-radius: 3px;
+}
+
+.active:hover{
+    background-color: black;
+    transition: 1s;
+}
